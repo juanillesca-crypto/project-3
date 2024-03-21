@@ -1,0 +1,14 @@
+.gin-showup{
+    position: relative;
+    min-width: 100%;
+    min-height: auto;
+    top: 140px;
+    background-color: $color1;
+    .gin-showup-content{
+        text-align: center;
+        padding: 20px;
+        p{
+        font-size: 20px;
+        }
+    }
+}

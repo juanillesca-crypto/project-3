@@ -1,0 +1,13 @@
+.form-img{
+    flex: 1;
+padding: 10px;
+display: flex;
+img{
+    position: relative;
+    top: 60px;
+    width: 60%;
+    border-radius: 30%;
+    background-color: $color1;
+    padding: 3px;
+}
+}

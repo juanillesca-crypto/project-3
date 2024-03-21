@@ -1,0 +1,150 @@
+.store{
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    top: 140px;
+    padding: 20px;
+    background-color: $color1;
+    .store-content{
+        display: flex;
+        position: relative;
+        .nth-left img{
+            width: 600px;
+            height: 400px;
+            border-radius: 15px;
+            box-shadow: -10px 10px black;
+        }
+        .nth-right{
+            align-self: center;
+            justify-self: center;
+            font-size: 20px;
+            padding-left: 20px;
+            h2{
+                margin-bottom: 200px;
+            }
+            p{
+                margin-top: -140px;
+            }
+        }
+    }
+}
+
+.festivals{
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    top: 140px;
+    padding: 20px;
+    background-color: $color1;
+    .festivals-content{
+        display: flex;
+        .nth-right img{
+            width: 600px;
+            height: 400px;
+            border-radius: 15px;
+            box-shadow: 10px 10px black;
+        }
+        .nth-left{
+            align-self: center;
+            justify-self: center;
+            font-size: 20px;
+            padding-right: 20px;
+            h2{
+                margin-bottom: 200px;
+            }
+            p{
+                margin-top: -140px;
+            }
+        }
+    }
+}
+
+.history{
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    top: 140px;
+    padding: 20px;
+    background-color: $color1;
+    .history-content{
+        display: flex;
+        .nth-left img{
+            width: 600px;
+            height: 400px;
+            border-radius: 15px;
+            box-shadow: -10px 10px black;
+        }
+        .nth-right{
+            align-self: center;
+            justify-self: center;
+            font-size: 20px;
+            padding-left: 20px;
+            h2{
+                margin-bottom: 200px;
+            }
+            p{
+                margin-top: -140px;
+            }
+        }
+    }
+}
+
+.map{
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    top: 140px;
+    padding: 20px;
+    background-color: $color1;
+    .map-content{
+        display: flex;
+        .nth-right img{
+            width: 600px;
+            height: 400px;
+            border-radius: 15px;
+            box-shadow: 10px 10px black;
+        }
+        .nth-left{
+            align-self: center;
+            justify-self: center;
+            font-size: 20px;
+            padding-right: 20px;
+            h2{
+                margin-bottom: 200px;
+            }
+            p{
+                margin-top: -140px;
+            }
+        }
+    }
+}
+
+.receips{
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    top: 140px;
+    padding: 20px;
+    background-color: $color1;
+    .receips-content{
+        display: flex;
+        .nth-left img{
+            width: 600px;
+            height: 400px;
+            border-radius: 15px;
+            box-shadow: -10px 10px black;
+        }
+        .nth-right{
+            align-self: center;
+            justify-self: center;
+            font-size: 20px;
+            padding-left: 20px;
+            h2{
+                margin-bottom: 200px;
+            }
+            p{
+                margin-top: -140px;
+            }
+        }
+    }
+}

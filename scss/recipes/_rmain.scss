@@ -1,0 +1,89 @@
+.main-recipes{
+    position: relative;
+    top: 130px;
+    min-width: 100%;
+    min-height: auto;
+    background-color: $color4;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 200px);
+    gap: 20px;
+    padding: 20px;
+    .recipe{
+        border: 2px solid black;
+        a{
+            position: relative;
+            top: 170px;
+            border: 1px solid black;
+            border-radius: 5px;
+            font-weight: bold;
+            text-shadow: 0 0 4px black;
+            background-color:#a8c03094;
+            padding: 5px 7px;
+            &:hover{
+                color: palevioletred;
+            }
+        }
+    }
+    .recipe1{
+        background-image: url(/images/classic\ gindrink.png);
+        background-size: cover;
+        background-position: center;
+    }
+    .recipe2{
+        background-image: url(/images/collinslitchidrink.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .recipe3{
+        background-image: url(/images/ginacoladadrink.webp);
+        background-size: cover;
+        background-position: center;
+    }
+    .recipe4{
+        background-image: url(/images/ginporndrink.webp);
+        background-size: cover;
+        background-position: center;
+    }
+    .recipe5{
+        background-image: url(/images/gintonicstrawberrydrink.webp);
+        background-size: cover;
+        background-position: center;
+    }
+    .recipe6{
+        background-image: url(/images/limoncellodrink.webp);
+        background-size: cover;
+        background-position: center;
+    }
+    .recipe7{
+        background-image: url(/images/nameofrosedrink.webp);
+        background-size: cover;
+        background-position: center;
+    }
+    .recipe8{
+        background-image: url(/images/martinidfrink.webp);
+        background-size: cover;
+        background-position: center;
+    }
+    .recipe9{
+        background-image: url(/images/negronidrink.png);
+        background-size: cover;
+        background-position: center;
+    }
+    .recipe10{
+        background-image: url(/images/palomadrink.png);
+        background-size: cover;
+        background-position: center;
+    }
+    .recipe11{
+        background-image: url(/images/pinktonicdrink.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .recipe12{
+        background-image: url(/images/smashdrink.webp);
+        background-size: cover;
+        background-position: center;
+    }
+}

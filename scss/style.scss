@@ -1,0 +1,33 @@
+@import 'base/generales';
+@import 'base/variables';
+
+
+@import 'generals/header';
+
+
+@import 'index/components/imain';
+@import 'index/components/category';
+@import 'index/components/sections';
+@import 'index/components/engagement';
+@import 'index/components/c&s';
+
+@import 'gin/gshowup';
+@import 'gin/gmain';
+@import 'gin/tonic';
+@import 'gin/more';
+
+@import 'recipes/recipessu';
+@import 'recipes/rmain';
+@import 'recipes/recipesmore';
+@import 'recipes/recipesvideo';
+
+@import 'service/smain';
+@import 'service/scarousel';
+@import 'service/scards';
+@import 'service/sclients';
+
+@import 'contact/contactform';
+@import 'contact/contactimg';
+
+@import 'generals/footer'
+

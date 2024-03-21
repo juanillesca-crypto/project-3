@@ -1,0 +1,79 @@
+.main-gin{
+    position: relative;
+    top: 140px;
+    min-width: 100%;
+    min-height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 250px);
+    background-color: $color1;
+    gap: 20px;
+    padding: 20px;
+    .gin{
+        border: 1px solid black;
+        overflow: hidden;
+
+        a{
+            position: relative;
+            top: 7px;
+            right: 1px;
+            border: 1px solid black;
+            padding: 10px 20px;
+            background-color: rgba(19, 192, 192, 0.5);
+            font-weight: bold;
+            text-shadow: 0 0 3px black;
+            &:hover{
+                color: $color5;
+                background-color: $color3;
+            }
+        }
+    }
+    .gin1{background-image: url(/images/bluemoongin.jpg);
+          background-size: cover;
+          background-position: center;
+    }
+    .gin2{background-image: url(/images/bombayblue.jpg);
+          background-size: cover;
+          background-position: center;
+        }
+    .gin3{background-image: url(/images/gilbeysgin.jpg);
+          background-size: cover;
+          background-position: center;
+        }
+    .gin4{background-image: url(/images/gin\ aconcagua.jpg);
+          background-size: cover;
+          background-position: center;
+        }
+    .gin5{background-image: url(/images/gordonsclassic.png);
+          background-size: cover;
+          background-position: center;
+        }
+    .gin6{background-image: url(/images/hendriksgin.png);
+          background-size: cover;
+          background-position: center;
+        }
+    .gin7{background-image: url(/images/herale.webp);
+          background-size: cover;
+          background-position: center;
+        }
+    .gin8{background-image: url(/images/monkey\ gin.jpg);
+          background-size: cover;
+          background-position: center;
+        }
+    .gin9{background-image: url(/images/noletsgin.jpg);
+          background-size: cover;
+          background-position: center;
+        }
+    .gin10{background-image: url(/images/sipsmithgin.jpg);
+          background-size: cover;
+          background-position: center;
+        }
+    .gin11{background-image: url(/images/tanque-green.jpg);
+          background-size: cover;
+          background-position: center;
+        }
+    .gin12{background-image: url(/images/vefeater\ normal.jpg);
+          background-size: cover;
+          background-position: center;
+        }
+}

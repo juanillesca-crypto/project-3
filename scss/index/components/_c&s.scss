@@ -1,0 +1,45 @@
+hr{
+    position: relative;
+    top: 140px;
+}
+
+.cust-service{
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    top: 140px;
+    padding: 20px;
+    text-align: center;
+    background-color: $color2;
+    background-image: url(/images/cupisun.png);
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-top: 1px solid black;
+    .cust-service-content{
+        position: relative;
+        top: 50px;
+        font-size: 20px;
+        color: #fff;
+    }
+}
+
+.social{
+    position: relative;
+    min-width: 100%;
+    min-height: auto;
+    top: 125px;
+    padding: 20px;
+    background-color: $color1;
+    h3{
+        color: $color4;
+    }
+    i{
+        color: $color4;
+        font-size: 20px;
+        letter-spacing: 20px;
+        &:hover {
+            color: $color5;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+.service-cards{
+    position: relative;
+    top: 140px;
+    min-width: 100%;
+    min-height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 20px;
+    .card{
+        background-color: $color1;
+        a{
+            background-color: #a8c030;
+            border: none;
+            &:hover{
+                color: $color3;
+                background-color: $color6;
+                border: $color6;
+            }
+        }
+    }
+}

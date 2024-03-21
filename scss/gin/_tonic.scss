@@ -1,0 +1,28 @@
+.tonic{
+    position: relative;
+    top: 140px;
+    min-width: 100%;
+    min-height: auto;
+    background-color: $color1;
+    text-align: center;
+    color: #000;
+    .tonic-options{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .tonic-option{
+        border: 1px solid black;
+        background-color: $color5;
+        img{
+            width: 200px;
+            height: 200px;
+        }
+        a{
+            font-size: 18px;
+            padding: 85px 20px;
+            &:hover{
+                color: #007878;
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+.engagement{
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    top: 140px;
+    background-color: $color3;
+    padding: 20px;
+    text-align: center;
+    color: $color5;
+    .engage-content{
+        display: flex;
+        justify-content: space-evenly;
+        color: $color5;
+        margin-top: 25px;
+        i{
+            font-size: 30px;
+        }
+    }
+}
